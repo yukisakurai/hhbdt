@@ -1,0 +1,27 @@
+digraph Tree {
+0 [label="mass_jet1_jet2 <= 201278.3594\ngini = 0.499999919972\nsamples = 12199", shape="box"] ;
+1 [label="gini = 0.4923\nsamples = 723\nvalue = [ 0.06815363  0.05306967]", shape="box"] ;
+0 -> 1 ;
+2 [label="MET_centrality <= 1.2089\ngini = 0.499860396953\nsamples = 11476", shape="box"] ;
+0 -> 2 ;
+3 [label="mmc1_mass <= 91.0766\ngini = 0.499563575121\nsamples = 5904", shape="box"] ;
+2 -> 3 ;
+4 [label="gini = 0.4873\nsamples = 915\nvalue = [ 0.05992916  0.04345543]", shape="box"] ;
+3 -> 4 ;
+5 [label="tau2_centrality <= 0.7983\ngini = 0.499980161727\nsamples = 4989", shape="box"] ;
+3 -> 5 ;
+6 [label="gini = 0.4937\nsamples = 1892\nvalue = [ 0.08691964  0.10892798]", shape="box"] ;
+5 -> 6 ;
+7 [label="gini = 0.4939\nsamples = 3097\nvalue = [ 0.09909746  0.07944739]", shape="box"] ;
+5 -> 7 ;
+8 [label="mass_jet1_jet2 <= 525182.5000\ngini = 0.497421024482\nsamples = 5572", shape="box"] ;
+2 -> 8 ;
+9 [label="mass_jet1_jet2 <= 331076.4375\ngini = 0.499806011094\nsamples = 2301", shape="box"] ;
+8 -> 9 ;
+10 [label="gini = 0.4922\nsamples = 962\nvalue = [ 0.06575737  0.08446726]", shape="box"] ;
+9 -> 10 ;
+11 [label="gini = 0.4940\nsamples = 1339\nvalue = [ 0.06748094  0.05412534]", shape="box"] ;
+9 -> 11 ;
+12 [label="gini = 0.4835\nsamples = 3271\nvalue = [ 0.05286185  0.0763069 ]", shape="box"] ;
+8 -> 12 ;
+}
